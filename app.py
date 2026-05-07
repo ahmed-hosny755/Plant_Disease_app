@@ -8,7 +8,7 @@ import gdown
 import os
 
 # ---------------------------
-# تحميل الموديل من Google Drive لو مش موجود
+# تحميل الموديل من Google Drive
 # ---------------------------
 MODEL_PATH = "plant_disease_prediction_model.keras"
 if not os.path.exists(MODEL_PATH):
